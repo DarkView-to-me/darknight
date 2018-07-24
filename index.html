@@ -78,17 +78,22 @@
    </div>
    <div class="pmeme"><video id="video" autoplay muted loop><source src="files/media/vid_5.mp4" type="video/mp4"></video></div>
    
-	   <audio> src="media/sound.mp3" autoplay="" loop="" id="player" </audio>
-	   <script> 
-	   var vid = document.getElementById("player");
-           vid.volume = 0.15;
-	   </script>
-	   
-	   <audio> src="media/tmtlbth.mp3" autoplay="" loop="" id="player" </audio>
-	   <script> 
-	   var vid = document.getElementById("player");
-           vid.volume = 0.17;
-	   </script>
+	    <audio autoplay="" loop="" id="player">
+         <source src="files/media/sound.mp3">
+			<script>
+				var audio = document.currentScript.parentElement;
+				audio.volume = 0.17;
+			</script>
+         </source>
+	</audio>
+		<audio autoplay="" loop="" id="player">
+         <source src="files/media/tmtlbth.mp3">
+			<script>
+				var audio = document.currentScript.parentElement;
+				audio.volume = 0.15;
+			</script>
+         </source>
+	</audio>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script language="JavaScript">
       //////////F12 disable code////////////////////////
