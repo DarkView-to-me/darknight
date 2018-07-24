@@ -77,8 +77,18 @@
       </div>
    </div>
    <div class="pmeme"><video id="video" autoplay muted loop><source src="files/media/vid_5.mp4" type="video/mp4"></video></div>
-   <embed src="files/media/sound.mp3" volume="0.34658434869567890" autoplay="true" loop="true" width="0" height="0">
-	   <embed src="files/media/tmtlbth.mp3" volume="0.346584348695678900909090" autoplay="true" loop="true" width="0" height="0">
+   
+	   <audio> src="media/sound.mp3" autoplay="" loop="" id="player" </audio>
+	   <script> 
+	   var vid = document.getElementById("player");
+           vid.volume = 0.15;
+	   </script>
+	   
+	   <audio> src="media/tmtlbth.mp3" autoplay="" loop="" id="player" </audio>
+	   <script> 
+	   var vid = document.getElementById("player");
+           vid.volume = 0.17;
+	   </script>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script language="JavaScript">
       //////////F12 disable code////////////////////////
