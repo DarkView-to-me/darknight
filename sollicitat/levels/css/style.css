@@ -1,0 +1,62 @@
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+};
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+};
+.button {
+    /*position: fixed;*/
+    bottom: 90px;
+    background-color: black;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: help;
+};
+.button:hover {
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+};
+html {
+    background-color: black;
+};
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140px;
+    color: whitesmoke;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+};
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: whitesmoke;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+};
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: whitesmoke;
+};
+def {
+    visibility: hidden;
+};
