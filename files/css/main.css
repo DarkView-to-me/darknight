@@ -220,7 +220,7 @@
 		height: 100%;
 		left: 0;
 		position: fixed;
-		/*text-align: center;*/
+		text-align: center;
 		top: 0;
 		width: 100%;
 	}
@@ -230,7 +230,7 @@
 			display: inline-block;
 			height: 100%;
 			margin-right: 0;
-			/*vertical-align: middle;*/
+			vertical-align: middle;
 			width: 1px;
 		}
 
