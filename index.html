@@ -67,8 +67,13 @@
 			checkURL();
 		   };
 		   function audio2() {
-			var audio2 = document.currentScript.parentElement;
+			var audio2 = document.getElementById('audio2');
 			audio2.volume = 0.1;
+		   };
+		   
+		   function audio() {
+			var audio = document.getElementById('audio');
+			audio.volume = 0.1;
 		   };
 			   			function checkURL() {
 var currentLocation = window.location.href;
@@ -106,7 +111,7 @@ else {
    </div>
    <div class="pmeme"><img class="imgs" src="files/media/Q6uJ7Pj.gif"></div>
 	<iframe src="files/media/poysc.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-		   <iframe src="files/media/sound.mp3" allow="autoplay" id="audio2" style="display:none"></iframe>
+	<iframe src="files/media/sound.mp3" allow="autoplay" id="audio2" style="display:none"></iframe>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script language="JavaScript">
       //////////F12 disable code////////////////////////
