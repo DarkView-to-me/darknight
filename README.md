@@ -1,2 +1,2 @@
-# DarkView, The best website for c.. champ's!
-Os fdp q entraram nesse repositório vão morrer com câncer no joelho kkk brinks, se copiarem, vão se dar mal, só isso.
+# DarkView Website Private repository
+Copyright (c) DarkView is a registred mark under DarkView Inc. 2018-2025
