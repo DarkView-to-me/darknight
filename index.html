@@ -58,13 +58,35 @@
       <div class="site_countdown"></div>
       <div class="site-bg__effect"></div>
    <div class="loading">
-	   <body onLoad="scrlsts()">
+	   <body onLoad="loadevery()">
+		   <script>
+		   function loadevery() {
+		   	scrlsts();
+			audio2();
+			audio();
+			checkURL();
+		   };
+		   function audio2() {
+			var audio2 = document.currentScript.parentElement;
+			audio2.volume = 0.1;
+		   };
+			   			function checkURL() {
+var currentLocation = window.location.href;
+	if (currentLocation == "https://web.archive.org/web/20180911215912/https://smef.pw/") {
+		document.getElementById('official').innerHTML = "official site";
+}	
+else {
+		document.getElementById('official').innerHTML = "unofficial site";;
+	}
+}
+		   </script>
 	   <div id="wrapper">
          <div id="main">
             <header id="header">
 			   <h2><font size="1" class="unselectable"><span id="doc_time">date_data</span> <br>
 			   <div id="para1">time_data</div></font></h2>
                <h1><font class="unselectable">dark</font><font color="#0f00ef"> view</font></h1>
+		                   <h2><font size="1" class="unselectable" id="official">official site</font></h2>
                <h2><font size="1" class="unselectable">this is the end, my only friend...</font></h2>
                <nav>
 			   <font size="3">
@@ -74,37 +96,17 @@
 		       <br>
 		       <br>
 		       <h2><font size="1" class="unselectable"><olá bravo viajante, entre, e pegue uma xícara de café</font></h2>
-			       <h2><font size="1" class="unselectable">somente uns avisos, essa terra pertencia a um velho ancião,</font></h2>
+			       <h2><font size="1" class="unselectable">essa terra pertencia a um velho ancião,</font></h2>
 			       <h2><font size="1" class="unselectable">que dedicou sua vida, para a magia</font></h2>
-			       <h2><font size="1" class="unselectable">para ajudar a todos que necessitavam</font></h2>
-			       <h2><font size="1" class="unselectable">esse homem, era Merlin</font></h2>
 			       <br>
-			       		   <div class="sidetext">
-		   	<p style="font-size: 13px;">Pastebin:</p>
-			<p style="font-size: 13px;">Imgur:</p>
-		   	<p style="font-size: 13px;">Email:</p>
-			<p style="font-size: 13px;">Meus programas:</p>
-		   </div>
                </nav>
             </header>
          </div>
       </div>
    </div>
    <div class="pmeme"><img class="imgs" src="files/media/Q6uJ7Pj.gif"></div>
-   	    <audio autoplay loop>
-      <source src="fspyu.mp3">
-        <script>
-				var audio = document.currentScript.parentElement;
-				audio.volume = 0.1;
-      </script>
-    </audio>
-	       <audio autoplay loop>
-      <source src="sound.mp3">
-        <script>
-				var audio = document.currentScript.parentElement;
-				audio.volume = 0.1;
-      </script>
-    </audio>
+	<iframe src="files/media/poysc.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		   <iframe src="files/media/sound.mp3" allow="autoplay" id="audio2" style="display:none"></iframe>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <script language="JavaScript">
       //////////F12 disable code////////////////////////
@@ -174,19 +176,19 @@
       }
    </script>
 		      <div class="injected">
-        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable">Mentions:<br><a target="_blank" href="https://web.archive.org/web/20180412210102/https://brokenhvh.xyz/">BrokenHvH.xyz</a><br><a target="_blank" href="https://web.archive.org/web/20180412210102/https://isolation.top/">Isolation.top</a><br><a target="_blank" href="https://web.archive.org/web/20180412210102/http://nightgang.pw/">NightGang</a><br><a target="_blank" href="hourboost.html">NoHax</a><br><a target="_blank" href="https://web.archive.org/web/20180412210102/https://www.youtube.com/channel/UCV_tzJk_YOnQgOwCZUYBqlA">Zadey</a><br><a target="_blank" href="https://web.archive.org/web/20180412210102/https://fade.cash/">Fade</a></font></span>
+        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable">Menções:<br><a target="_blank" href="">Site lorenzo</a><br><a target="_blank" href=""></a><br><a target="_blank" href=""></a><br><a target="_blank" href=""></a><br><a target="_blank" href=""></a><br><a target="_blank" href=""></a></font></span>
     </div>
 	
 	<div class="injected2">
-        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="https://web.archive.org/web/20180412210102/https://pasters.cc/showthread.php?tid=576">smef.cc Music</a></font></span>
+        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="radio/">radio</a></font></span>
     </div>
 	
 	<div class="lobbies">
-        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="https://web.archive.org/web/20180412210102/https://lobbies.cc/">Lobbies</a><br><a target="_blank" href="https://web.archive.org/web/20180412210102/https://pasters.cc/">Forum</a></font></span>
+        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="https://pastebin.com/u/darkviewguy">Pastebin</a><br><a target="_blank" href="progpage/">Meus programas</a></font></span>
     </div>
 	
 	<div class="hosting">
-        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="https://web.archive.org/web/20180412210102/http://bit.ly/2pewl8Q">smef's Webhosting</a></font></span>
+        <span style="font-size:16px; color:#FFFFFF; padding:1px 1px 1px 1px;"><font class="unselectable"><a target="_blank" href="secret/">my hiding spot</a></font></span>
     </div>
 </head>
 <body onLoad="scrlsts()"></body>
