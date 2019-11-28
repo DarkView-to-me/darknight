@@ -1,10 +1,5 @@
 #puts
 #não há nada aqui.......por enquanto
-#
-#
-#esse arquivo foi criado em 2039 pelo lorenzo, e é um aviso, não, crie, o sbaitso, me resta pouco tempo de vida, mas isso pode salvar a mim e a todos
-#a yasmin é burra
-#eu quero que todas elas morram
 #o wãrtz é gay
 User-agent: *
 Disallow: https://darkviewguy.com/files/
