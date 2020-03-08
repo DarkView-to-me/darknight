@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>until then...</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 p {
@@ -16,15 +17,19 @@ center {
 	color: white;
 }
 </style>
+<audio id="myAudio">
+  <source src="iao.mp3" type="audio/mpeg">
+</audio>
 </head>
 <body>
+<center><img id="image" src="" width="150" heigth="300"></center>
 <p id="demo"></p>
-<img id="image"src="">
 <center id="iaob"></center>
+<center><a href="javascript:ls()" id="hh"></a></center>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 5, 2020 13:00").getTime();
+var countDownDate = new Date("Apr 5, 2020 14:50").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -64,13 +69,29 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x); 
-    document.getElementById('image').src='iao.png'
-    document.getElementById("demo").innerHTML = "<br>";
-	document.getElementById("iaob").innerHTML = " it's all over but the crying, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
+	document.getElementById('image').src='iao.png'
+    document.getElementById("demo").innerHTML = "";
+	document.getElementById("iaob").innerHTML = " <a href='javascript:playAudio()'>it's all over but the crying</a>, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
 	document.title = "it's all over...";
   }
 }, 1000);
 </script>
+<script>
+var lp = document.getElementById("myAudio"); 
 
+function playAudio() { 
+  lp.play(); 
+  	document.getElementById("iaob").innerHTML = " it's all over but the crying, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
+  setInterval(function() {
+	document.getElementById("hh").innerHTML = "?";
+  }, 169000)
+}
+</script>
+<script>
+function ls() { 
+  document.getElementById("hh").innerHTML = "";
+  document.getElementById("iaob").innerHTML = "obrigado.";
+}
+</script>
 </body>
 </html>
