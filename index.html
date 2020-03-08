@@ -19,6 +19,7 @@ center {
 </head>
 <body>
 <p id="demo"></p>
+<img id="image"src="">
 <center id="iaob"></center>
 
 <script>
@@ -63,6 +64,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x); 
+    document.getElementById('image').src='iao.png'
     document.getElementById("demo").innerHTML = "<br>";
 	document.getElementById("iaob").innerHTML = " it's all over but the crying, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
 	document.title = "it's all over...";
