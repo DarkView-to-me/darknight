@@ -26,10 +26,11 @@ center {
 <p id="demo"></p>
 <center id="iaob"></center>
 <center><a href="javascript:ls()" id="hh"></a></center>
-
+<br>
+<a><img id="img2" src=""> <a id="texts"></a></a>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 5, 2020 14:50").getTime();
+var countDownDate = new Date("Mar 8, 2020 14:49").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -81,9 +82,10 @@ var lp = document.getElementById("myAudio");
 
 function playAudio() { 
   lp.play(); 
-  	document.getElementById("iaob").innerHTML = " it's all over but the crying, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
-  setInterval(function() {
+  document.getElementById("iaob").innerHTML = " it's all over but the crying, and nobody's crying but me<br> friends all over, know I'm trying<br> to forget about how much I care for you<br> it's all over but the dreaming<br> poor little dreams, that keep trying to come true<br> it's all over but the crying<br> and I can't get over crying over you";
+  setTimeout(function() {
 	document.getElementById("hh").innerHTML = "?";
+	return;
   }, 169000)
 }
 </script>
@@ -91,6 +93,9 @@ function playAudio() {
 function ls() { 
   document.getElementById("hh").innerHTML = "";
   document.getElementById("iaob").innerHTML = "obrigado.";
+  setTimeout(function() {
+	window.location.href = "look/index.html";
+  }, 5000)
 }
 </script>
 </body>
