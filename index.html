@@ -16,6 +16,12 @@ body {
 center {
 	color: white;
 }
+#img2 {
+	float: right;
+}
+#strongred {
+	color: red;
+}
 </style>
 <audio id="myAudio">
   <source src="iao.mp3" type="audio/mpeg">
@@ -26,11 +32,22 @@ center {
 <p id="demo"></p>
 <center id="iaob"></center>
 <center><a href="javascript:ls()" id="hh"></a></center>
+<center><a href="javascript:ld()" id="hj"></a></center>
 <br>
-<a><img id="img2" src=""> <a id="texts"></a></a>
+<br>
+<br><br><br>
+<br>
+<br><br><br>
+<br>
+<br><br><br>
+<br>
+<br><br><br>
+<br>
+<br><br>
+<a>K54278B</a>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 5, 2020 15:30").getTime();
+var countDownDate = new Date("Apr 20, 2020 15:30").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -76,6 +93,9 @@ var x = setInterval(function() {
 	document.title = "it's all over...";
   }
 }, 1000);
+	setTimeout(function () {
+		document.getElementById("hj").innerHTML = "?";
+	}, 600000)
 </script>
 <script>
 var lp = document.getElementById("myAudio"); 
@@ -87,6 +107,15 @@ function playAudio() {
 	document.getElementById("hh").innerHTML = "?";
 	return;
   }, 169000)
+}
+</script>
+<script>
+function ld() { 
+	var input = prompt("Insira o código:", "");
+	document.getElementById("hj").innerHTML = "";
+	if(input == "K54278B"){
+		alert("É muito cedo para usar esse código. 12 dias -- hrs -- min -- seg")
+	}
 }
 </script>
 <script>
