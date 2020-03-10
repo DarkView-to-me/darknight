@@ -1,0 +1,16 @@
+# Final da parte 1 do enigma, parabens
+# A parte 2 vira em breve...
+# O cellbit não está com nada
+
+User-agent: *
+
+Disallow: antigos.html
+Disallow: dados.html
+Disallow: deixando.html
+Disallow: esta.html
+Disallow: estes.html
+Disallow: never_gonna_give_you_up.html
+Disallow: parte1.html
+Disallow: relendo.html
+Disallow: verdade.html
+Disallow: voce.html
